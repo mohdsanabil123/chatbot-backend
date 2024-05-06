@@ -15,7 +15,7 @@ def index():
         output_data = wikipedia.summary(input_data, sentences=1)
     except:
         output_data = "Sorry! Please search with different words."
-    print(output_data)
+    # print(output_data)
     response = {
         'fulfillmentText': output_data
     }
